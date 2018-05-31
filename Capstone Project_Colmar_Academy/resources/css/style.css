@@ -1,0 +1,387 @@
+html {
+  font-family: helvetica;
+}
+
+/* Header */
+
+header {
+  background-color: white;
+  color: #4a4a4a;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  padding-left: 24px;
+}
+
+.logo span {
+  font-weight: bold;
+}
+
+/* Navigation */
+
+.navigation .sign-in {
+  padding-right: 24px;
+}
+
+.navigation a {
+  padding-left: 16px;
+  color: #4a4a4a;
+}
+
+.navigation a:hover {
+  font-weight: bold;
+}
+
+/* Banner 1 */
+
+.banner-1 {
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-1 .main-image {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.banner-1 .description h1 {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.banner-1 .description p {
+  color: #4a4a4a;
+  font-size: 30px;
+}
+
+/* Banner 1 (Start Here Button) */
+
+.banner-1 .start-here-button p {
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  padding: 8px 0px;
+}
+
+.banner-1 .start-here-button p:hover {
+  background-color: gray;
+}
+
+.banner-1 .start-here-button p {
+  transition-property: background-color;
+  transition-duration: 600ms;
+}
+
+/* Banner 2 */
+
+.banner-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-2 .main-image {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.banner-2 .main-image h1 {
+  color: #4a4a4a;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.banner-2 .main-image p {
+  color: #4a4a4a;
+  font-size: 16px;
+  padding-bottom: 32px;
+}
+
+.banner-2 .main-image span {
+  color: #4a4a4a;
+  padding-bottom: 32px;
+  font-weight: bold;
+}
+
+/* Vertical Line */
+
+.vertical-line {
+  border: 1px solid #d8d8d8;
+}
+
+.banner-2 .orientation-date,
+.on-campus,
+.our-lecture {
+  border: 1px solid #d8d8d8;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 1px;
+}
+
+.banner-2 .information .description {
+  width: 65%;
+  margin: auto;
+}
+
+.banner-2 .information img {
+  width: 35%;
+  height: 35%;
+  padding: 16px 16px;
+}
+
+.banner-2 .information h1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.banner-2 .information .description h1,
+p {
+  padding-bottom: 8px;
+  color: #4a4a4a;
+}
+
+.banner-2 .information .description a {
+  color: blue;
+}
+
+.banner-2 .our-lecture {
+  background-color: #d8d8d8;
+}
+
+/* Banner 3 */
+
+.banner-3 {
+  background-color: #eaebec;
+}
+
+.banner-3 .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner-3 .heading h1 {
+  padding: 32px 32px;
+  color: #4a4a4a;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-3 .software-engineering,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing {
+  background-color: white;
+  color: #4a4a4a;
+  display: inline-block;
+  margin-left: 72px;
+  margin-bottom: 32px;
+}
+
+.banner-3 .info h1 {
+  padding-left: 16px;
+  padding-top: 16px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.banner-3 .info h2 {
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.banner-3 .info p {
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+.banner-3 .info:hover {
+  background-color: black;
+}
+
+.banner-3 .info {
+  transition-property: background-color;
+  transition-duration: 6s;
+}
+
+.banner-3 .info:hover {
+  color: white;
+}
+
+.banner-3 .info {
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+.banner-3 img:hover {
+  opacity: 0.8;
+}
+
+.banner-3 img {
+  transition-property: color;
+  transition-duration: 4s;
+}
+
+/* Banner 4 */
+
+.banner-4 .content {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-4 .heading h1 {
+  padding: 32px 32px;
+  color: #4a4a4a;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Banner 4 (Video) */
+
+.banner-4 .video {
+  width: 50%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.banner-4 .video video {
+ padding-bottom: 24px;
+}
+
+.banner-4 .video p {
+  padding-bottom: 32px;
+}
+
+.banner-4 .information {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Banner 4 (Fisma) */
+
+.banner-4 .fisma {
+  background-color: #d8d8d8;
+  width: 130%;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-4 .fisma a {
+  width: 35%;
+  height: 35%;
+  padding: 16px;
+}
+
+.banner-4 .fisma .info {
+  width: 65%;
+  margin: auto;
+  padding-left: 16px;
+}
+
+.banner-4 .fisma h2 {
+  padding-left: 16px;
+}
+
+.banner-4 .fisma p {
+  padding-left: 16px;
+}
+
+/* Banner 4 (Now And Then) */
+
+.banner-4 .now-and-then {
+  width: 130%;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-4 .now-and-then .info {
+  width: 65%;
+  margin: auto;
+  padding-left: 16px;
+}
+
+.banner-4 .now-and-then h2 {
+  padding-left: 16px;
+}
+
+.banner-4 .now-and-then p {
+  padding-left: 16px;
+}
+
+.banner-4 .info h2 {
+  padding-bottom: 8px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.banner-4 .info:hover {
+  color: white;
+}
+
+.banner-4 .info {
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+.banner-4 a:hover {
+  opacity: 0.8;
+}
+
+/* Horizontal Line */
+
+.horizontal-line {
+  border: 1px solid #d8d8d8;
+  height: 0px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+footer p {
+  color: #4a4a4a;
+  flex-grow: 1;
+}
+
+footer span {
+  color: #4a4a4a;
+  padding-right: 24px;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
